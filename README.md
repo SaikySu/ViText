@@ -33,24 +33,6 @@ vitext/
 - Standard libraries: `os`, `re`, `chardet` (for automatic encoding detection in dictionary files)
 - No third-party dependencies except for `chardet` (only for robust dictionary file reading)
 
-## Usage
-
-### 1. Installation
-
-```bash
-git clone <repo-url>
-cd vinorm
-pip install chardet
-```
-
-### 2. Run the Demo Script
-
-```bash
-python main.py
-```
-
-By default, the script normalizes a test sentence and writes the result to `output.txt`.
-
 ## Component Overview
 
 - **core.py**:\
