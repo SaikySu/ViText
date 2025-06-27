@@ -20,7 +20,7 @@ ViText is designed to standardize text for various applications such as Text-to-
 ## Project Structure
 ```
 vitext/
-├── core.py        # Main Vinorm class and normalization logic
+├── core.py        # Main class and normalization logic
 ├── utils.py       # Utility functions for number/unit handling, pattern matching, spelling, etc.
 ├── main.py        # Example/demo script for quick normalization testing
 ├── dicts/         # Folder for unit, abbreviation, and special rule dictionaries (customizable)
