@@ -68,19 +68,6 @@ vitext/
 
 ---
 
-## Example Usage
-
-```python
-from core import Vinorm
-
-vitext = Vinorm()
-normalized = vitext.normalize("Liên hệ: 1800 6868. Giá: 245l, ngày 12/2020, mã ABC-01-23A")
-print(normalized)
-# Output: liên hệ một tám không không sáu tám sáu tám . giá hai trăm bốn mươi lăm lít , ngày tháng mười hai năm hai nghìn không trăm hai mươi , mã a bê xê không một hai ba a
-```
-
----
-
 ## System Requirements
 
 - Python 3.11+
