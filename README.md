@@ -48,7 +48,7 @@ vitext/
 
 ---
 
-## Component Overview
+## Component Overview 1.0 Version
 
 | File/Folder | Purpose                                                                          |
 |-------------|----------------------------------------------------------------------------------|
@@ -88,3 +88,10 @@ vitext/
 ## Acknowledgements
 
 - Special thanks to [Mr. Đỗ Trí Nhân](https://github.com/v-nhandt21), the original author of the Vinorm library, for making this resource and its extensive Vietnamese datasets available to the community.
+
+## Fix version & Note
+- **1.0**: In this version, I used hard-coded logic to test the stable operation of most functions defined in `utils` and `core`. 
+> The code runs stably in most common cases; however, it takes too much time to run all test cases `(~8s for 92 test cases)`.
+
+- **2.0**: In this version, I used classes defined in different modules and organized the flow in a more structured and debuggable way.
+> The code works well for many more complex cases compared to 1.0 and significantly improves performance `(<1s with 152 test cases)`. However, there are still some bugs when the input is a complex code string longer than `20` characters.
